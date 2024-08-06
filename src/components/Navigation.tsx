@@ -89,20 +89,16 @@ const Navigation = () => {
         </button>
       </div>
       <div className="flex flex-col gap-3">
-        <NavigationLink setIsOpen={setIsOpen} isOpen={isOpen} name="Dashboard">
+        <NavigationLink setIsOpen={setIsOpen} name="Dashboard">
           <ChartBarIcon className="stroke-inherit stroke-[0.75] min-w-8 w-8" />
         </NavigationLink>
-        <NavigationLink
-          setIsOpen={setIsOpen}
-          isOpen={isOpen}
-          name="MachineData"
-        >
+        <NavigationLink setIsOpen={setIsOpen} name="MachineData">
           <DocumentChartBarIcon className="stroke-inherit stroke-[0.75] min-w-8 w-8" />
         </NavigationLink>
-        <NavigationLink setIsOpen={setIsOpen} isOpen={isOpen} name="MachineMap">
+        <NavigationLink setIsOpen={setIsOpen} name="MachineMap">
           <MapIcon className="stroke-inherit stroke-[0.75] min-w-8 w-8" />
         </NavigationLink>
-        <NavigationLink setIsOpen={setIsOpen} isOpen={isOpen} name="Reports">
+        <NavigationLink setIsOpen={setIsOpen} name="Reports">
           <ChartPieIcon className="stroke-inherit stroke-[0.75] min-w-8 w-8" />
         </NavigationLink>
       </div>
