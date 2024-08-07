@@ -82,21 +82,21 @@ const Dashboard = () => {
         />
         <DashboardInfoSection
           logo={<PowerIcon className=" w-10 h-10  stroke-cyan-400" />}
-          title={"Machine Installed"}
-          number={"12,361"}
-          percentage={"+14%"}
+          title={"Machines Running"}
+          number={"431,225"}
+          percentage={"+21%"}
         />
         <DashboardInfoSection
           logo={<IndianRupeeIcon className=" w-10 h-10  stroke-cyan-400" />}
-          title={"Machine Installed"}
-          number={"12,361"}
-          percentage={"+14%"}
+          title={"Total Collection"}
+          number={"32,441"}
+          percentage={"+5%"}
         />
         <DashboardInfoSection
           logo={<TruckIcon className=" w-10 h-10  stroke-cyan-400" />}
-          title={"Machine Installed"}
-          number={"12,361"}
-          percentage={"+14%"}
+          title={"Items Dispensed"}
+          number={"1,325,134"}
+          percentage={"+43%"}
         />
       </div>
       <div className="grid md:grid-cols-2 grid-cols-1 gap-3 ">
