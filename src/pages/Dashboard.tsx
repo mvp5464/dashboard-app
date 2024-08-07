@@ -73,7 +73,7 @@ const Dashboard = () => {
         <h1 className=" text-neutral-900 font-semibold text-xl">DASHBOARD</h1>
         <h4 className=" text-cyan-400 text-sm">Welcome to your dashboard</h4>
       </div>
-      <div className="grid grid-cols-4 justify-betweens items-centers gap-3 w-full mb-4">
+      <div className="grid md:grid-cols-4 grid-cols-1 justify-betweens items-centers gap-3 w-full mb-4">
         <DashboardInfoSection
           logo={<InstalledIcon className=" w-10 h-10  stroke-cyan-400" />}
           title={"Machine Installed"}
@@ -99,9 +99,9 @@ const Dashboard = () => {
           percentage={"+14%"}
         />
       </div>
-      <div className="grid grid-cols-2 gap-3 ">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-3 ">
         <div className=" bg-amber-200 h-full w-full rounded-xl p-3 flex justify-center items-center">
-          <div className=" w-[20rem] h-[20rem]">
+          <div className="  w-full h-full ">
             <MyDoughnutChart
               userData={userOneData.myData}
               userLables={userOneData.myLabel}
@@ -109,7 +109,7 @@ const Dashboard = () => {
           </div>
         </div>
         <div className=" bg-amber-200 h-full w-full rounded-xl p-3 flex justify-center items-center">
-          <div className=" w-[20rem] h-[20rem]">
+          <div className=" w-full h-full">
             <MyDoughnutChart
               userData={userTwoData.myData}
               userLables={userTwoData.myLabel}

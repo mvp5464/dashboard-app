@@ -4,9 +4,9 @@ import Navigation from "../components/Navigation";
 const Layout = () => {
   return (
     <>
-      <div className=" w-full h-screen flex flex-row relative bg-neutral-100">
+      <div className=" w-full min-h-screen flex flex-row relative bg-neutral-100">
         <Navigation />
-        <div className=" p-10 w-full ml-20 ">
+        <div className=" md:p-10 p-4 w-full ml-20 ">
           <Outlet />
         </div>
       </div>

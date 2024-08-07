@@ -10,7 +10,7 @@ import {
 
 const containerVariants = {
   close: {
-    width: "5rem",
+    width: "4rem",
     transition: {
       type: "spring",
       damping: 15,
@@ -18,7 +18,7 @@ const containerVariants = {
     },
   },
   open: {
-    width: "16rem",
+    width: "14rem",
     transition: {
       type: "spring",
       damping: 15,
@@ -61,7 +61,7 @@ const Navigation = () => {
       variants={containerVariants}
       initial="close"
       animate={containerControls}
-      className=" bg-neutral-900 flex flex-col z-10 gap-20 p-5 absolute top-0 left-0 h-full shadow shadow-neutral-600"
+      className=" bg-neutral-900 flex flex-col z-10 gap-20 p-3 absolute top-0 left-0 min-h-fit h-full shadow shadow-neutral-600"
     >
       <div className=" flex flex-row w-full justify-between pic">
         <div className="w-10 h-10 bg-gradient-to-br from-orange-100 to to-amber-300 rounded-full flex justify-center items-center">
