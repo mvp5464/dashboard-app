@@ -6,7 +6,7 @@ const Layout = () => {
     <>
       <div className=" w-full min-h-screen flex flex-row relative bg-neutral-100">
         <Navigation />
-        <div className=" md:p-10 p-4 w-full ml-20 ">
+        <div className=" md:p-10 p-4 w-full ml-16 ">
           <Outlet />
         </div>
       </div>
