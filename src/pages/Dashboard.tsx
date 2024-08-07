@@ -101,7 +101,7 @@ const Dashboard = () => {
       </div>
       <div className="grid md:grid-cols-2 grid-cols-1 gap-3 ">
         <div className=" bg-amber-200 h-full w-full rounded-xl p-3 flex justify-center items-center">
-          <div className="  w-full h-full ">
+          <div className=" w-full h-full md:w-[20rem] md:h-[20rem] ">
             <MyDoughnutChart
               userData={userOneData.myData}
               userLables={userOneData.myLabel}
@@ -109,7 +109,7 @@ const Dashboard = () => {
           </div>
         </div>
         <div className=" bg-amber-200 h-full w-full rounded-xl p-3 flex justify-center items-center">
-          <div className=" w-full h-full">
+          <div className=" w-full h-full  md:w-[20rem] md:h-[20rem] ">
             <MyDoughnutChart
               userData={userTwoData.myData}
               userLables={userTwoData.myLabel}
